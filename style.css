@@ -4,6 +4,9 @@
 
 .name{
   color: pink;
+
+  .question{
+    color: blue;
 /* h1 {
 color: pink;
 font-size: 1rem;
