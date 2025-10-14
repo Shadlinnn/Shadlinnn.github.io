@@ -8,9 +8,9 @@
 }
 
   .questions{
-    color: blue;
     border-style: dashed;
     border-color: pink;
+     color: blue;
   }
 
 /* h1 {
