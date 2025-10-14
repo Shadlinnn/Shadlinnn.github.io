@@ -9,7 +9,7 @@
 
   .questions{
     color: blue;
-    border: 5px;
+    border-style: dashed;
     border-color: pink;
   }
 
