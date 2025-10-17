@@ -7,4 +7,6 @@ body{
   width: 512px;
   heigh: 256px;
   background-color: #111111;
-;
+
+  margin: 0 auto;
+}
