@@ -17,3 +17,13 @@ body{
   border-color: #555555;
   border-radius: 5px;
 }
+
+#name{
+  margin-color: 64px;
+
+text-transform: uppercase;
+  font-family: Helvetica;
+  Font-weight: 200;
+
+border-bottom: solid 1px white;
+  padding-bottom: 12px;
