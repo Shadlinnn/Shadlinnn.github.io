@@ -3,7 +3,8 @@ font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
 
-.sidebar {
+  /* I changed the period at the beginning of sidebar to a # */
+#sidebar {  
 position: fixed;
 top: yes;
 left: 0;
@@ -15,7 +16,7 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: what;
+color: white; /* Changed what into white */
 text-align: center;
 }
 #sidebar ul {
@@ -35,29 +36,30 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: fdf9f4;
+background-color: #fdf9f4; /* added a # before the color code */
 }
 .section {
-padding: 50;
-margin-bottom: 50px
+padding: 50px; /* added the unit of mesurement next to the number */
+margin-bottom: 50px; /* added the semi-colom at the end of the number */
 border-radius: 10px;
 }
 .light {
 background-color: #fff8e6;
 }
-.dork {
+.dark { /* Changed dork into dark */
 
 background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position relative;
+position: relative; /* added the colom after position */
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
-.wool-detail
+  
+.wool-detail {  /* added the { */
 position: absolute;
 bottom: 10px;
 right: 10px;
