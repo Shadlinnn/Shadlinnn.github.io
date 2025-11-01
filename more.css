@@ -39,7 +39,6 @@ body {
 }
 
 #content {
-  margin-left: 220px;
   padding: 40px;
   background-color: #fdf9f4; /* I added a '#' before fdf9f4. Without it, it wouldn’t be recognized as a color code. */
 }
@@ -48,6 +47,7 @@ body {
   padding: 50px; /* I added 'px' to make it a unit. */
   margin-bottom: 50px; /* I added a missing semicolon and 'px' so that the unit is there and can be executed as well. */
   border-radius: 10px;
+  margin-left: 220px;
 }
 
 .light {
