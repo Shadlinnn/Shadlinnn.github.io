@@ -4,7 +4,7 @@ body {
   color: #3b2b0a;
 } /* I added a closing '}' tag. Without it, the rest of my CSS wouldn’t work. */
 
-#sidebar { /* I changed .sidebar to #sidebar because in my HTML, the .sidebar wouldnt make sense */
+.sidebar { /* I changed .sidebar to #sidebar because in my HTML, the .sidebar wouldnt make sense */
   position: fixed;
   top: 0; /* I changed 'yes' to '0' because it needed a number value and 'yes' wouldn't make sense. */
   left: 0;
