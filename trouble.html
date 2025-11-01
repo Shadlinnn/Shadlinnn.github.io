@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alpaca Adventures</title>
-<link rel="stylesheet" href="more.css"> <!-- changed the href into more.css.... -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpaca Adventures</title>
+  <link rel="stylesheet" href="more.css"> <!-- I fixed the file link so it connects to "more.css" since before, it was missing the file extension, so the page couldn’t connect to the CSS. -->
 </head>
-<body>
-<div id="sidebar">
-<h2>🦙 Alpaca Adventures</h2>
-<h2>Name</h2>
-<ul>
-<li><a href="#home">Home</a></li> <!-- I added a # behind the href home -->
-<li><a href="#wool">Wool</a></li>
-<li><a href="#herds">Herd Life</a></li>
-<li><a href="#fun">Fun Facts</a></li> <!-- I added a closing </li> tag.... -->
-</ul>
-</div>
-  
-<div id="content">
-<div id="home" class="section light">
-<h1>Welcome to Alpaca Adventures</h1>
-<p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle
-personalities. They travel in groups called herds.</p>
-</div>
-</div> <!-- I added a 2 closing </div> tags.... -->
 
-<div id="wool" class="section dark"> <!-- I added the quotations around wool and section dark.... -->
-<h2>Wonderful Wool</h2> <!-- I added a forward slash "/" to the closing h2 tag.... -->
-Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy
-clothing.
-<div class="wool-box">
-<p>This box demonstrates <strong>absolute positioning</strong>.</p>
-<div class="wool-detail">
-<p>I'm a smaller box positioned inside the larger one!</p>
-</div>
-</div>
-</div>
-  
-<div id="herds" class="section light">
-<h2>The Herd Life</h2>
-<p>Alpacas are social animals and hum to each other to communicate. They also have a
-leader that helps keep order in the group.</p>
-</div>
-<div id="fun" class="section dark">
-<h2>Fun Facts</h2>
-<ul>
-<li>Alpacas can live up to 20 years. </li> <!-- I added a closing <li> tag.... -->
-<li>They rarely spit at people — only other alpacas!</li>
-<li>Each alpaca has a unique “hum” sound.</li>
-</ul>
-</div>
-<div id="footer">
-<p>© 2025 Alpaca Adventures</p>
-</div>
+<body>
+
+  <div id="sidebar">
+    <h2>🦙 Alpaca Adventures</h2>
+    <h2>Name</h2>
+    <ul>
+      <li><a href="#home">Home</a></li> <!-- I added a "#" so this link goes to the “home” section on the same page. -->
+      <li><a href="#wool">Wool</a></li>
+      <li><a href="#herds">Herd Life</a></li>
+      <li><a href="#fun">Fun Facts</a></li> <!-- I added a missing closing </li> tag since without it, the list wouldn't show correctly. -->
+    </ul>
+  </div>
+
+  <div id="content">
+    <div id="home" class="section light">
+      <h1>Welcome to Alpaca Adventures</h1>
+      <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle personalities. They travel in groups called herds.</p>
+    </div>
+  </div> <!-- I removed one extra </div> that was here before. -->
+
+  <div id="wool" class="section dark"> <!-- I added quotations since without them the browser wouldn't read them correctly. -->
+    <h2>Wonderful Wool</h2> <!-- I added a "/" to close this <h2> tag. Without it, the text would show up in the wrong format. -->
+    <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p> <!-- I put  the text in <p> tags to make it a paragraph. -->
+    <div class="wool-box">
+      <p>This box demonstrates <strong>absolute positioning</strong>.</p>
+      <div class="wool-detail">
+        <p>I'm a smaller box positioned inside the larger one!</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="herds" class="section light">
+    <h2>The Herd Life</h2>
+    <p>Alpacas are social animals and hum to each other to communicate. They also have a
+    leader that helps keep order in the group.</p>
+  </div>
+
+  <div id="fun" class="section dark">
+    <h2>Fun Facts</h2>
+    <ul>
+      <li>Alpacas can live up to 20 years.</li> <!-- I added a missing </li> tag. Not adding it would make the rest of the list look weird. -->
+      <li>They rarely spit at people — only other alpacas!</li>
+      <li>Each alpaca has a unique “hum” sound.</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <p>© 2025 Alpaca Adventures</p>
+  </div>
 
 </body>
 </html>
