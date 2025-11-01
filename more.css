@@ -39,7 +39,7 @@ body {
 }
 
 #content {
-  margin-left: 250px;
+  margin-left: 240px;
   padding: 40px;
   background-color: #fdf9f4; /* I added a '#' before fdf9f4. Without it, it wouldn’t be recognized as a color code. */
 }
