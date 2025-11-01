@@ -2,11 +2,11 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   margin: 0;
   color: #3b2b0a;
-} /* I added a closing '}' tag. Without it, the rest of my CSS wouldn’t work. */
+} /* I added a closing '}' tag since without it the rest of my CSS wouldn’t work. */
 
-#sidebar { /* I changed .sidebar to #sidebar because in my HTML, the .sidebar wouldnt make sense since its not an id*/
+#sidebar { /* I changed .sidebar to #sidebar because in my HTML, the .sidebar wouldn't make sense */
   position: fixed;
-  top: 0; /* I changed 'yes' to '0' because it needed a number value and 'yes' wouldn't make sense. */
+  top: 0; /* I changed 'yes' to '0' because it needs a number value and 'yes' isn't an accurate unit. */
   left: 0;
   width: 220px;
   height: 100%;
@@ -46,7 +46,7 @@ body {
 
 .section {
   padding: 50px; /* I added 'px' to make it a unit. */
-  margin-bottom: 50px; /* I added a missing semicolon and 'px'. */
+  margin-bottom: 50px; /* I added a missing semicolon and 'px' so that the unit is there and can be executed as well. */
   border-radius: 10px;
 }
 
