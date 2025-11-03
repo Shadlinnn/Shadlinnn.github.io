@@ -29,32 +29,33 @@ body {
   margin: 15px 0;
 }
 
-#sidebar a {
+#sidebar a{
   color: white;
   text-decoration: none;
 }
 
-#sidebar a:hover {
+#sidebar a:hover{
   text-decoration: underline;
 }
 
-#content {
-  padding: 40px;
+#content{
+ /* I removed 'margin-left' to maintain the alignment of the first box with the layout flow of the rest */
+    padding: 40px;
   background-color: #fdf9f4; /* I added a '#' before fdf9f4. Without it, it wouldn’t be recognized as a color code. */
 }
 
-.section {
-  padding: 50px; /* I added 'px' to make it a unit. */
+.section{
+  padding: 50px; /* I added 'px' to make it a unit. */  
   margin-bottom: 50px; /* I added a missing semicolon and 'px' so that the unit is there and can be executed as well. */
   border-radius: 10px;
-  margin-left: 220px;
+  margin-left: 250px; /*I added Margins left to this section because I realized that it fixes the layout so that the sidebar is not covering any of the text */
 }
 
-.light {
+.light{
   background-color: #fff8e6;
 }
 
-.dark { /* I changed '.dork' to '.dark' */
+.dark{ /* I changed '.dork' to '.dark' */
   background-color: #e7cba9;
   color: #3b2b0a;
 }
