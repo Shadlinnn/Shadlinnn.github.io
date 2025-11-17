@@ -1,1 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #4a3c2f;
+    background: #fffaf4;
+}
+
+.navbar {
+    background: #f8d0d9;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #52363b;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #52363b;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #a94b6f;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 6px #00000055;
+}
+
+.hero-text p {
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 1px 1px 5px #00000055;
+}
+
+.section {
+    padding: 60px 8%;
+}
+
+.section.light {
+    background: #fdf1f6;
+}
+
+.section h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #a94b6f;
+}
+
+.content-row {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-row img {
+    width: 47%;
+    border-radius: 20px;
+}
+
+.text {
+    width: 48%;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px #00000015;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card h3 {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a94b6f;
+}
 
