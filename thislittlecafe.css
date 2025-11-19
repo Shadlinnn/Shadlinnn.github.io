@@ -84,6 +84,13 @@ body {
     color: #a94b6f;
 }
 
+.section h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #a94b6f;
+}
+
 .content-row {
     display: flex;
     gap: 35px;
