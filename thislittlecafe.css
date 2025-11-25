@@ -3,17 +3,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navbar positioning and color/margins/padding */
+/* Navbar layout with a sticky effect */
 .navbar {
-    position: sticky;
-     /* this allows the navbar to remain on top of the webpage even when scrolling down */ 
+    position: sticky; 
+    /* keeps navbar fixed at the top while scrolling */
     top: 0;
     width: 100%;
     background: white;
     padding: 18px 40px;
     gap: 40px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-     /* this is used to add shadow effects to the frame surrounding the text on the navbar */
+    /* adds a shadow to separate navbar from the page */
     z-index: 999;
 }
 
@@ -28,44 +28,47 @@ body {
     color: #ff66b3;
 }
 
-/* Text box on home page */
+/* Home page background image section */
 .box {
     width: 100%;
     height: 550px;
     background-image: url("https://i.pinimg.com/736x/73/93/10/739310f860d20f3a5b012a3eb8ff8251.jpg");
     background-size: cover;
-     /* this allows the background image to cover all of the main page rather than just a portion */
+    /* makes the image fill the whole section without stretching */
     background-position: center;
     position: relative;
 }
 
+/* Text container on top of the image */
 .box-textbox {
     position: absolute;
     bottom: 40px;
     left: 40px;
     background: rgba(255, 255, 255, 0.6);
+    /* transparent white so text is readable over the image */
     padding: 25px 40px;
     border-radius: 8px;
 }
 
-/* Home page text */
+/* Large homepage title */
 .hero-textbox h1 {
     margin: 0;
     font-size: 46px;
     letter-spacing: 2px;
 }
 
-/* Home page subtext */
+/* Homepage subtitle text */
 .hero-textbox p {
     margin: 10px 0 0;
     font-size: 22px;
 }
 
-/* About us */
+/* About Us section: the two-column layout */
 .about-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* spreads text on left and image on right */
     padding: 50px;
     gap: 40px;
 }
@@ -91,9 +94,10 @@ body {
 .about-img {
     width: 40%;
     border-radius: 10px;
+    /* adds rounded corners to the image */
 }
 
-/* What we serve page */
+/* What We Serve section layout */
 .serve-section {
     padding: 50px 30px;
     background: #fffbe6;
@@ -105,6 +109,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    /* evenly spaces all menu items in one row */
 }
 
 .serve-item {
@@ -115,6 +120,7 @@ body {
     width: 100%;
     height: 260px;
     object-fit: cover;
+    /* makes sure that the images keep their shape without stretching */
     border-radius: 10px;
 }
 
@@ -124,9 +130,10 @@ body {
     padding: 15px;
     border-radius: 10px;
     min-height: 120px;
+    /* keeps all of the description boxes the same height */
 }
 
-/* Other page */
+/* Other page style */
 .other-container {
     background: #ffd6e8;
     padding: 50px;
@@ -151,11 +158,13 @@ body {
     justify-content: center;
     gap: 40px;
     margin-top: 30px;
+    /* aligns the images in one centered row */
 }
 
 .other-images img {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    /* keeps images clear and neat */
     border-radius: 12px;
 }
