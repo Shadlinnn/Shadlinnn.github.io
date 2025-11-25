@@ -30,7 +30,7 @@ body {
 }
 
 /* HOME HERO SECTION (added) */
-.hero {
+.box {
     width: 100%;
     height: 550px;
     background-image: url("https://i.pinimg.com/736x/73/93/10/739310f860d20f3a5b012a3eb8ff8251.jpg");
@@ -40,7 +40,7 @@ body {
 }
 
 /* TRANSPARENT TEXT BOX (added) */
-.hero-textbox {
+.box-textbox {
     position: absolute;
     bottom: 40px;
     left: 40px;
